@@ -1,0 +1,24 @@
+{
+  "name": "typescript-poo",
+  "version": "1.0.0",
+  "description": "Projeto typescript programação orientada à objetos ",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Marlinsk/typescript-poo.git"
+  },
+  "author": "Marlinsk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marlinsk/typescript-poo/issues"
+  },
+  "homepage": "https://github.com/Marlinsk/typescript-poo#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
