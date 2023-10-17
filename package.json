@@ -2,8 +2,11 @@
   "name": "typescript-poo",
   "version": "1.0.0",
   "description": "Projeto typescript programação orientada à objetos ",
-  "main": "index.js",
-  "scripts": {},
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+    "start": "npm run build && node dist/main.js"
+  },
   "repository": {
     "type": "github",
     "url": "https://github.com/Marlinsk/typescript-poo.git"
@@ -15,10 +18,17 @@
   },
   "homepage": "https://github.com/Marlinsk/typescript-poo#readme",
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@types/prompt-sync": "^4.2.1",
+    "babel-plugin-module-resolver": "^5.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "crypto": "^1.0.1"
+    "crypto": "^1.0.1",
+    "prompt-sync": "^4.2.0"
   }
 }
