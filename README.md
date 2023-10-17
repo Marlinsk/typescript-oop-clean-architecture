@@ -4,7 +4,7 @@ Primeiro projeto typescript utilizando o paradigma de programação orientada a 
 Este projeto eu fiz para refletir esses pontos, me fazendo voltar lá no início de quando eu comecei a programar, lá em 2019, onde meu professor me ensinava a programar sem utilizar os utilitários do java ou bibliotecas já criadas para resolver os problemas. 
 
 ## Objetivo
-Desenvolver uma aplicação desktop, revendo conceitos passados aprendidos durante o tempo de faculdade. Conceitos esses que envolvem programação orientada à objetos, código limpo, clien architecture, ambos eles foram aplicados na aplicação, sendo boa parte deles uma base para iniciar projetos na parte de regra de negócio.
+Desenvolver uma aplicação desktop, revendo conceitos passados aprendidos durante o tempo de faculdade. Conceitos esses que envolvem programação orientada à objetos, código limpo, clien architecture, sendo boa parte deles uma base inicial para começar a modelar a regra de negócio de projetos antes de utilizar um framework ou tecnologia.
 
 ## Tecnologias utilizadas
 - Javascript
