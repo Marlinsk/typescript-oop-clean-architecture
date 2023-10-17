@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
-    "start": "npm run build && node dist/main.js"
+    "start": "node dist/main.js"
   },
   "repository": {
     "type": "github",
