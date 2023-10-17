@@ -1,10 +1,10 @@
-import { Product } from "./core/entities/Product";
-import { ShoppingCart } from "./core/entities/ShoppingCart";
-import { initialProductData } from "./data/mocks/ProductData";
-import { ProductRepository } from "./data/repositories/ProdutoRepository";
-import { CommandLineInterface } from "./frameworks/cli/CommandLineInterface";
+import { Product } from "@core/entities/Product";
+import { ShoppingCart } from "@core/entities/ShoppingCart";
+import { initialProductData } from "@data/mocks/ProductData";
+import { ProductRepository } from "@data/repositories/ProdutoRepository";
+import { CommandLineInterface } from "@frameworks/cli/CommandLineInterface";
 
-import main from "./presents/ConsolePresenter";
+import main from "@presents/ConsolePresenter";
 
 const shoppingCart = new ShoppingCart();
 const productRepository = new ProductRepository();

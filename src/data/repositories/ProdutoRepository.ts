@@ -1,4 +1,4 @@
-import { Product } from "../../core/entities/Product";
+import { Product } from "@core/entities/Product";
 
 export class ProductRepository {
   private products: Product[] = [];

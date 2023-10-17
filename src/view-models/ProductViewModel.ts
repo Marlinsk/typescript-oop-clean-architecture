@@ -1,4 +1,4 @@
-import { Product } from "src/core/entities/Product";
+import { Product } from "@core/entities/Product";
 
 export class ProductViewModel {
   static viewProduct(product: Product) {

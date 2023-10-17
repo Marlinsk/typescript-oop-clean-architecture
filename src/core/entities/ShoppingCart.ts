@@ -7,10 +7,10 @@ export class ShoppingCart {
     this._items.push(product);
   }
 
-  // removeItem(barcode: number): void {
-  //   const findIndex = this._items.findIndex((findProduct) => findProduct.barcode === barcode);
-  //   this._items.splice(findIndex, 1);
-  // }
+  public removeItem(barcode: number): void {
+    const findIndex = this._items.findIndex((findProduct) => findProduct.barcode === barcode);
+    this._items.splice(findIndex, 1);
+  }
 
   public get items(): Product[] {
     return this._items;
