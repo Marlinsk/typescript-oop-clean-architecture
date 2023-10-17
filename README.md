@@ -17,3 +17,21 @@ O projeto foi desenvolvido utilizando conceitos de:
 - Código limpo
 - Clean architecture
 
+## Passo a passo
+**Aviso:** Para executar o passo a passo para rodar a aplicação na sua máquina é necessário que você tenha, conhecimento em comandos de terminal, git e github commands, e comandos do gerenciador de pacotes npm, movimentação entre pastas via terminal.
+
+### Clonando e configurando o projeto
+**1º passo: clonar o projeto em sua máquina.**
+```bash
+git clone https://github.com/Marlinsk/typescript-poo-clean-architecture.git
+```
+
+**2º passo: após clonar o projeto entre na pasta do projeto**
+```bash
+cd typescript-poo-clean-architecture
+```
+
+**3º passo: execute o comando para instalar as dependências do projeto.**
+```bash
+npm install
+```
