@@ -51,7 +51,7 @@ export default function main(cli: CommandLineInterface) {
         const totalPrice = cartItems.reduce((total, product) => total + product.price, 0);
 
         console.log("Carrinho de Compras:", shoppingCart.map((product) => ProductViewModel.viewProduct(product)));
-        console.log("Preço total:", totalPrice.toFixed(2));
+        console.log("Preço total:", "$", totalPrice.toFixed(2));
         break;
 
       case "4":
